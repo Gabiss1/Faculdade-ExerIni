@@ -14,13 +14,13 @@ int main()
     printf("Digite 5 números: ");
     scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
     
-    int area = (b*c)/2;
+    double area = (b*c)/2.0;
     int perimetroRetangulo = a+b+c+d;
-    double areaCirculo = (e*e)/3.14;
+    double areaCirculo = 3.14*(e*e);
     
-    printf("Área do triângulo: %d\n", area);
+    printf("Área do triângulo: %f\n", area);
     printf("Perímetro do retângulo: %d\n", perimetroRetangulo);
-    printf("Área do círculo: %d\n", areaCirculo);
+    printf("Área do círculo: %f\n", areaCirculo);
 
     return 0;
 }
