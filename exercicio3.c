@@ -19,10 +19,10 @@ int main()
     double teste = c * 0.3;
     double media = prova + trabalho + teste;
     
-    printf("\nTrabalho: %f\n", trabalho);
-    printf("Prova: %f\n", prova);
-    printf("Teste: %f\n", teste);
-    printf("Média: %f\n", media);
+    // printf("\nTrabalho: %f\n", trabalho);
+    // printf("Prova: %f\n", prova);
+    // printf("Teste: %f\n", teste);
+    printf("Sua nota final foi: %f\n", media);
 
     return 0;
 }
