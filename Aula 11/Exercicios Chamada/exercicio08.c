@@ -1,0 +1,1 @@
+// Exercício 8: Faça uma função que retorna um array de números lidos do teclado.
