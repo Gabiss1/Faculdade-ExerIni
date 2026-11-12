@@ -1,0 +1,1 @@
+// Exercício 4. Declare um array de inteiros e use ponteiros para imprimir os elementos do array.
